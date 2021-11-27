@@ -32,7 +32,7 @@ var inventory []vehicle
 // Values array for the feedback.json file
 type Values struct {
 	Models   []Model  `json:"values"`
-	Name     string   `json:"model`
+	Name     string   `json:"model"`
 	Feedback []string `json:"feedback"`
 }
 
